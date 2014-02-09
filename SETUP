@@ -18,6 +18,7 @@ defaults write com.apple.Finder AppleShowAllFiles YES
 
 # Get the Mountain Lion developer tools (for gcc-without-Xcode) . . .
 # http://osxdaily.com/2012/07/06/install-gcc-without-xcode-in-mac-os-x/
+# (This will require a (free) dev key)
 https://developer.apple.com/downloads/index.action#
 
 
@@ -43,8 +44,8 @@ gem: --no-rdoc --no-ri
 
 
 # Download and install the Heroku Toolbelt and then . . .
-git config --global user.name "DrStephenRacunas"
-git config --global user.email Stephen.A.Racunas@gmail.com
+git config --global user.name "YourNameGoesHere"
+git config --global user.email YourEmailAddy@gmail.com
 
 
 
@@ -160,5 +161,6 @@ sudo rake install
 curl https://install.meteor.com/ | sh
 sudo cp ~/.meteor/tools/latest/launch-meteor /usr/bin/meteor
 meteor help
+meteor create --example leaderboard
 
 
