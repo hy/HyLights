@@ -43,7 +43,7 @@ gem: --no-rdoc --no-ri
 
 
 
-# Download and install the Heroku Toolbelt and then . . .
+# For git et al., download and install the Heroku Toolbelt and then . . .
 git config --global user.name "YourNameGoesHere"
 git config --global user.email YourEmailAddy@gmail.com
 
